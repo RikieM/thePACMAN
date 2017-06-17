@@ -15,6 +15,7 @@ int speed = 0;
 int  g_sum = 0;                   //统计吃豆的个数
 int  g_score = 0;                   //分数统计
 bool g_win = true;                //成败的标志
+int time_of_play = 0;
 IMAGE image[12];                     //装载图片
 enum { LEFT = 1, RIGHT, UP, DOWN };     //方向的控制
 struct figure						//人物属性
@@ -666,6 +667,7 @@ void beanrecreate()
 
 void play()
 {
+	time_of_play++;
 	setbkcolor(RGB(72, 12, 12));
 	char key;             //获取字母
 	int t;                //记录方向
