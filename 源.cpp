@@ -586,7 +586,7 @@ void Init_leave()
 	LOGFONT f;
 	getfont(&f);
 	f.lfHeight = 48;
-	strcpy(f.lfFaceName, "楷体");
+	strcpy(f.lfFaceName, "微软雅黑");
 	f.lfQuality = ANTIALIASED_QUALITY;
 	f.lfWeight = FW_NORMAL;
 	setcolor(LIGHTGREEN);
@@ -603,7 +603,7 @@ void Init_win()                             //成功的界面
 	LOGFONT f;
 	getfont(&f);
 	f.lfHeight = 48;
-	strcpy(f.lfFaceName, "楷体");
+	strcpy(f.lfFaceName, "微软雅黑");
 	f.lfQuality = ANTIALIASED_QUALITY;
 	f.lfWeight = FW_NORMAL;
 	setcolor(LIGHTGREEN);
@@ -636,7 +636,7 @@ void stop()                                 //游戏暂停
 	char key = 'a';
 	char stop[] = "游戏暂停中";
 	setcolor(BLACK);
-	settextstyle(28, 0, "楷体");
+	settextstyle(28, 0, "微软雅黑");
 	outtextxy(230, 50, stop);
 	Sleep(100);
 	while (key != ' ')
