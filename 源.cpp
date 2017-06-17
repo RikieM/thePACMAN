@@ -139,7 +139,7 @@ void Initia() 										//初始化界面
 {
 	int i;
 	cleardevice();
-	setbkcolor(RGB(135, 206, 250));
+	setbkcolor(RGB(200, 200, 200));
 
 	for (int i = 0; i < 15; i++)
 		for (int j = 0; j < 20; j++)
