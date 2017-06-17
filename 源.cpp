@@ -193,7 +193,7 @@ void load_music()
 
 void Init_score() 							       //¼Ç·Ö°å
 {
-	setbkcolor(RGB(72, 12, 12));
+	setbkcolor(RGB(200, 200, 200));
 	char infor[10];
 	itoa(g_score, infor, 10);
 	setcolor(CYAN);
